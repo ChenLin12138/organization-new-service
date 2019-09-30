@@ -28,6 +28,7 @@ public class OrganizationServiceController {
 	public Organization getOrganization(@PathVariable("organizationId") String organizationId) {
 		Organization org = orgService.getOrg(organizationId);
 		org.setContactName("new::"+org.getContactName());
+		org.setName("new::"+org.getName());
 		return org;
 	}
 	

@@ -1,5 +1,5 @@
 # licensing-service
-Spring Cloud Learning organization-service
+Spring Cloud Learning organization-new-service
 ## What Is It?
 Spring cloud components learning.
 ## Spring Cloud components
